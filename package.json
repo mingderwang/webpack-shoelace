@@ -1,0 +1,21 @@
+{
+  "name": "webpack-shoelace",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Ming-der Wang",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^13.0.2",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "start:s": "serve .",
+    "start": "webpack --watch",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
